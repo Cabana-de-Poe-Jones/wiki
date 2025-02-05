@@ -1,6 +1,10 @@
 ---
 sidebar_position: 1
+<<<<<<< HEAD
 splug: /
+=======
+slug: /
+>>>>>>> fc391b12 (new things)
 ---
 
 # Tutorial Intro

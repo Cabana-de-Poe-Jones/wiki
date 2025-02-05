@@ -10,8 +10,13 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
+<<<<<<< HEAD
   title: 'My Site',
   tagline: 'Dinosaurs are cool',
+=======
+  title: 'Cabana de Poe Jones',
+  tagline: 'Daddy, Chill',
+>>>>>>> fc391b12 (new things)
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -42,6 +47,7 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+<<<<<<< HEAD
           sidebarPath: './sidebars.js',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
@@ -63,6 +69,31 @@ const config = {
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
         },
+=======
+          routeBasePath: '/',
+          sidebarPath: './sidebars.js'},
+          // Please change this to your repo.
+          // Remove this to remove the "edit this page" links.
+        //   editUrl:
+        //     'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+        // },
+        blog: false,
+        // blog: {
+        //   showReadingTime: true,
+        //   feedOptions: {
+        //     type: ['rss', 'atom'],
+        //     xslt: true,
+        //   },
+        //   // Please change this to your repo.
+        //   // Remove this to remove the "edit this page" links.
+        //   editUrl:
+        //     'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+        //   // Useful options to enforce blogging best practices
+        //   onInlineTags: 'warn',
+        //   onInlineAuthors: 'warn',
+        //   onUntruncatedBlogPosts: 'warn',
+        // },
+>>>>>>> fc391b12 (new things)
         theme: {
           customCss: './src/css/custom.css',
         },

@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "mysite",
+=======
+  "name": "cabanawiki",
+>>>>>>> fc391b12 (new things)
   "version": "0.0.0",
   "private": true,
   "scripts": {
